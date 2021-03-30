@@ -1,6 +1,7 @@
-package com.epam.jwd.app;
+package com.epam.jwd.task0.src.com.epam.jwd.app;
 
-import com.epam.jwd.model.SomePojo;
+
+import com.epam.jwd.task0.src.com.epam.jwd.model.SomePojo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,7 +13,7 @@ public class Main {
 
 		LOGGER.info("SomePojo class launched");
 
-		SomePojo [] somePojo = new SomePojo[3];
+		SomePojo[] somePojo = new SomePojo[3];
 
 		somePojo[0] = new SomePojo("Messi", 10, true);
 		somePojo[1] = new SomePojo("Ronaldo", 7, true);

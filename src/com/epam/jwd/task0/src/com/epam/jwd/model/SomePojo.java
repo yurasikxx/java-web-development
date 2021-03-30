@@ -1,4 +1,4 @@
-package com.epam.jwd.model;
+package com.epam.jwd.task0.src.com.epam.jwd.model;
 
 import java.util.Objects;
 
