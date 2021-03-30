@@ -1,2 +1,2 @@
-2021-03-30 21:29:17.940 [main] ERROR com.epam.java.task1.Main - Triangle Triangle{pointA=Point{point=4, length=1}, pointB=Point{point=2, length=3}, pointC=Point{point=8, length=2}} can't exist
-2021-03-30 21:29:17.940 [main] ERROR com.epam.java.task1.Main - Object Square{pointA=Point{point=1, length=1}, pointB=Point{point=1, length=0}, pointC=Point{point=1, length=1}, pointD=Point{point=1, length=0}} isn't figure com.epam.java.task1.Square
+2021-03-30 21:33:50.316 [main] ERROR com.epam.java.task1.Main - Triangle Triangle{pointA=Point{point=3, length=1}, pointB=Point{point=6, length=1}, pointC=Point{point=8, length=9}} can't exist
+2021-03-30 21:33:50.316 [main] ERROR com.epam.java.task1.Main - Object Square{pointA=Point{point=0, length=1}, pointB=Point{point=0, length=0}, pointC=Point{point=0, length=1}, pointD=Point{point=1, length=1}} isn't square
