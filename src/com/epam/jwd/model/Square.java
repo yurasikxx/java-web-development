@@ -1,17 +1,20 @@
-package com.epam.java.task1;
+package com.epam.jwd.model;
 
-public class Square {
+import com.epam.jwd.strategy.SquarePropertiesStrategy;
+
+public class Square extends Figure {
 
     private final Point pointA;
     private final Point pointB;
     private final Point pointC;
     private final Point pointD;
 
-    public Square(Point pointA, Point pointB, Point pointC, Point pointD) {
+    Square(Point pointA, Point pointB, Point pointC, Point pointD) {
         this.pointA = pointA;
         this.pointB = pointB;
         this.pointC = pointC;
         this.pointD = pointD;
+        this.figurePropertiesStrategy = new SquarePropertiesStrategy();
     }
 
     public Point getPointA() {
@@ -39,4 +42,5 @@ public class Square {
                 ", pointD=" + pointD +
                 '}';
     }
+
 }
